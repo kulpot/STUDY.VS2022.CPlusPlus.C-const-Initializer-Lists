@@ -10,10 +10,14 @@ using std::string;
 struct Cat
 {
 	int numLives;
-	Cat(int lives)
+	//Cat(int lives)
+	//{
+	//	numLives = lives;
+	//}		// output: 5
+	Cat(int lives) : numLives(lives)
 	{
-		numLives = lives;
-	}
+		//numLives = lives;
+	}		// output: 5
 };
 
 int main()
