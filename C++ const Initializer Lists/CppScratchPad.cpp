@@ -9,15 +9,21 @@ using std::string;
 
 struct Cat
 {
-	int numLives;
+	//int numLives;
+	const int numLives;
+	Cat(int lives) : numLives(lives)
+	{
+	};
 	//Cat(int lives)
 	//{
 	//	numLives = lives;
 	//}		// output: 5
-	Cat(int lives) : numLives(lives)
-	{
-		//numLives = lives;
-	}		// output: 5
+	//Cat(int lives) : 
+	//	numLives(lives), safsafsaf(afafa), 
+	//	afsdfaf(adsfaf), asdfafasf(afasdfsaf)
+	//{
+	//	//numLives = lives;
+	//}		// output: 5
 };
 
 int main()
