@@ -18,5 +18,13 @@
     <ClCompile Include="CppScratchPad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AnotherCppFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
