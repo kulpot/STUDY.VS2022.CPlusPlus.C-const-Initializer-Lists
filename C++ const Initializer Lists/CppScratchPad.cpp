@@ -4,6 +4,53 @@ using std::cout;
 using std::endl;
 using std::string;
 
+// ---------------------------------------- C++ const Initializer Lists ----------------------------------------
+//ref link:https://www.youtube.com/watch?v=sruGkv3dQZQ&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=7
+
+struct Cat
+{
+	int numLives;
+	Cat(int lives)
+	{
+		numLives = lives;
+	}
+};
+
+int main()
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // --------------------------------- C++ Static Class Data Members ----------------------------------
 //ref link:https://www.youtube.com/watch?v=k2LeEbcVazE&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=6
 
@@ -12,7 +59,7 @@ using std::string;
 //You can have static variables that are public or private.The two terms are different concepts.
 
 
-#include "MyClass.h"		// .h files
+//#include "MyClass.h"		// .h files
 
 //class MyClass		// declaration -> give me ram
 //{
@@ -32,13 +79,13 @@ using std::string;
 //void foo(){}
 //void goo(){}
 
-int myStaticInt = 5;
-//int SomeOtherClass::anotherStaticInt = 10;		// restrict visibility
-
-void main()
-{
-	MyClass::myStaticInt = 10;
-}
+//int myStaticInt = 5;
+////int SomeOtherClass::anotherStaticInt = 10;		// restrict visibility
+//
+//void main()
+//{
+//	MyClass::myStaticInt = 10;
+//}
 
 
 
