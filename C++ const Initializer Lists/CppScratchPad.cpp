@@ -10,8 +10,8 @@ using std::string;
 struct Cat
 {
 	//int numLives;
-	const int numLives;
-	Cat(int lives) : numLives(lives)
+	const int NUM_LIVES;			// constant initialize
+	Cat(int lives) : NUM_LIVES(lives)
 	{
 	};
 	//Cat(int lives)
@@ -29,7 +29,7 @@ struct Cat
 int main()
 {
 	Cat bruff(5);
-	cout << bruff.numLives << endl;
+	cout << bruff.NUM_LIVES << endl;
 }
 
 
