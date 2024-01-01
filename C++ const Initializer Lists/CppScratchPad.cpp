@@ -18,7 +18,8 @@ struct Cat
 
 int main()
 {
-
+	Cat bruff(5);
+	cout << bruff.numLives << endl;
 }
 
 
